@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProxyList>
+	<!--<Proxy>
+		<ProxyName>Default Proxy</ProxyName>
+		<Address>we1proxy01:8080</Address>
+		<UserName></UserName>
+		<Password></Password>
+	</Proxy>-->
+	<!--<Proxy>
+		<ProxyName>NJ Proxy</ProxyName>
+		<Address>192.168.82.54:8080</Address>
+		<UserName></UserName>
+		<Password></Password>
+	</Proxy>-->
+</ProxyList>
