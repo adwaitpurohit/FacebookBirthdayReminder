@@ -140,16 +140,16 @@ namespace FacebookBirthdayReminder
 		#region public static void CheckFacebook()
 		public static void CheckFacebook()
 		{
-			FacebookClient.SetDefaultHttpWebRequestFactory((Uri uri) =>
-			{
-				WebRequest webRequest = HttpWebRequest.Create(uri);
-				HttpWebRequestWrapper wrapper = new HttpWebRequestWrapper(webRequest as HttpWebRequest);
-				Uri proxyUri = webRequest.Proxy.GetProxy(uri);
-				WebProxy webProxy = new WebProxy(proxyUri);
-				webProxy.UseDefaultCredentials = true;
-				wrapper.Proxy = webProxy;
-				return wrapper;
-			});
+            //FacebookClient.SetDefaultHttpWebRequestFactory((Uri uri) =>
+            //{
+            //    WebRequest webRequest = HttpWebRequest.Create(uri);
+            //    HttpWebRequestWrapper wrapper = new HttpWebRequestWrapper(webRequest as HttpWebRequest);
+            //    Uri proxyUri = webRequest.Proxy.GetProxy(uri);
+            //    WebProxy webProxy = new WebProxy(proxyUri);
+            //    webProxy.UseDefaultCredentials = true;
+            //    wrapper.Proxy = webProxy;
+            //    return wrapper;
+            //});
 
 			DialogResult result;
 			string acessToken = GetAccessToken();
